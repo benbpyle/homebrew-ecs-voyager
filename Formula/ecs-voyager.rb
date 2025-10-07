@@ -10,10 +10,10 @@ class EcsVoyager < Formula
   end
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/benbpyle/ecs-voyager/releases/download/v0.1.3/ecs-voyager-v0.1.9-aarch64-apple-darwin.tar.gz"
+    url "https://github.com/benbpyle/ecs-voyager/releases/download/v0.1.9/ecs-voyager-v0.1.9-aarch64-apple-darwin.tar.gz"
     sha256 "c996f46f02e24281a7316f1b5602d2c8f5ebeded79e767345d5c57ba9638b2e9"
   elsif OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/benbpyle/ecs-voyager/releases/download/v0.1.3/ecs-voyager-v0.1.9-x86_64-apple-darwin.tar.gz"
+    url "https://github.com/benbpyle/ecs-voyager/releases/download/v0.1.9/ecs-voyager-v0.1.9-x86_64-apple-darwin.tar.gz"
     sha256 "972cefe943a0c9d945f470a64861a03e3fa5b0513eff42533591f3ad9d072456"
   end
 
