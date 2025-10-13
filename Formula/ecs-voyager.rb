@@ -1,7 +1,7 @@
 class EcsVoyager < Formula
   desc "Terminal user interface (TUI) for exploring and managing AWS ECS resources"
   homepage "https://github.com/benbpyle/ecs-voyager"
-  version "0.2.0"
+  version "0.2.7"
   license "MIT"
 
   # This formula uses prebuilt binaries and does not require compilation
@@ -10,11 +10,11 @@ class EcsVoyager < Formula
   end
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/benbpyle/ecs-voyager/releases/download/v0.2.0/ecs-voyager-v0.2.0-aarch64-apple-darwin.tar.gz"
-    sha256 "7a7e27bbe3033dcb7a71ceab96cad900e0b5f315409180399926b0d1598769cb"
+    url "https://github.com/benbpyle/ecs-voyager/releases/download/v0.2.7/ecs-voyager-v0.2.7-aarch64-apple-darwin.tar.gz"
+    sha256 "1924ebeac8870532dd8851a034b7ea6c639f664c3ef05bc50b78f22639130985"
   elsif OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/benbpyle/ecs-voyager/releases/download/v0.2.0/ecs-voyager-v0.2.0-x86_64-apple-darwin.tar.gz"
-    sha256 "1d7fcee446196c405e80780d781b0555dc8fdbf1f441300ddf59f8aeb2bb9e27"
+    url "https://github.com/benbpyle/ecs-voyager/releases/download/v0.2.7/ecs-voyager-v0.2.7-x86_64-apple-darwin.tar.gz"
+    sha256 "e43974d6e91aee3cd67b2cfe023f2c4ff0b04586a876e8c612db5d503b7ae2b3"
   end
 
   def install
